@@ -5,5 +5,4 @@ group :jekyll_plugins do
   gem "jekyll-paginate"
   gem 'jekyll-watch', :git => "https://github.com/CloudCannon/jekyll-watch"
   gem 'jekyll-archives'
-  gem 'jekyll-sass-converter', :git => "https://github.com/CloudCannon/jekyll-sass-converter.git"
 end
