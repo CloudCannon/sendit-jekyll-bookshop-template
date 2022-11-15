@@ -1,0 +1,40 @@
+title: SendIt Jekyll
+
+source: site
+
+plugins:
+  - jekyll-bookshop
+  - jekyll-paginate
+  - jekyll-archives
+
+jekyll-archives:
+  enabled:
+    - tags
+  layout: taxonomy
+  permalinks:
+    tag: "/tags/:name/"
+
+paginate: 9
+paginate_path: "/blogs/page:num/"
+# Multiple bookshops can be used on one website,
+# or different production / staging locations.
+bookshop_locations:
+  - ../component-library
+
+exclude:
+  - node_modules
+
+include:
+  - _cloudcannon # This exposes the live editing data to CloudCannon
+
+# The rest of this array structure will be
+# populated by the bookshop-array-structures plugin.
+_array_structures:
+  content_blocks:
+    style: modal
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: base

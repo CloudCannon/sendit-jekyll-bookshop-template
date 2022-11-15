@@ -1,0 +1,20 @@
+{
+   "name": "sendit-jekyll-cloudcannon",
+   "version": "1.0.0",
+   "description": "SenDit is a email marketing tool which ensures the business growth",
+   "scripts": {
+      "bookshop": "bookshop-browser",
+      "jekyll": "bundle exec jekyll serve --port 6060 --trace --unpublished",
+      "start": "run-p bookshop jekyll",
+      "package-install": "bundle install && npm i",
+      "build": "jekyll build"
+   },
+   "author": "StaticMania",
+   "license": "MIT",
+   "dependencies": {
+      "@bookshop/browser": "3.3.0",
+      "@bookshop/generate": "3.3.0",
+      "@bookshop/jekyll-engine": "3.3.0",
+      "npm-run-all": "^4.1.5"
+   }
+}

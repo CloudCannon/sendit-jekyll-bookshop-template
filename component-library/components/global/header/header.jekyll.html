@@ -1,0 +1,20 @@
+<section class="feature pt-0 pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <div
+          class="section-header @@disply"
+          {%
+          if
+          no_top_pad
+          %}style="padding-top:0;"
+          {%
+          endif
+          %}>
+          <h2>{{ include.title }}<span>{{ include.title_suffix }}</span></h2>
+          {{ include.description | markdownify}}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
