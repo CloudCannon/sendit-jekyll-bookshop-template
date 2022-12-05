@@ -1,48 +1,50 @@
-# SenDit
+# Sendit
 
-SenDit HTML Theme Development Structure
+Sendit is a polished, marketing website template for Eleventy. Browse through a [live demo](https://potent-ship.cloudvent.net/).
 
-SenDit is a simple, minimal and responsive Portfolio Hugo Theme. SenDit is well organized, well-formatted and named accordingly so it’s easy to change any and all of the design. SenDit is built with Bootstrap 4. You can customize it very easy to fit your needs.
+![Sendit template screenshot](/site/images/_screenshot.png)
 
-## Table of Contents
-
--  [Live Demo](#Live-Demo)
--  [Installation](#Installation)
--  [Main Features](#Features)
--  [Support](#Support)
--  [Licensing](#Licensing)
--  [Hire](#Hire)
-
-## Live-Demo
-
-Checkout the live demo [here](https://cool-bird.cloudvent.net)
-
-## Installation
-
-1. Add the repository into your Hugo Project repository by `https://github.com/StaticMania/SendIt-Jekyll-CloudCannon.git`
-2. After downloading the project run `npm run package-install` to install the modules.
-3. After successfully installed all require modules, run `npm run start` to run the project. this will create a `\_start` folder, where all the developed file will remain.
-4. To built the final project, run `npm run build` command.
-5. Build and run project by `npm run start` and see the result at `http://127.0.0.1:6060`
-6. For more details, read the full documentation [here](https://documentation.staticmania.com/docs/SenDit/).
+[![Deploy to CloudCannon](https://buttons.cloudcannon.com/deploy.svg)](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/sendit-eleventy-template)
 
 ## Features
 
--  Responsive Ready.
--  Powered by Bootstrap 4.
--  Dedicated portfolio and blog page.
--  Well formatted code.
--  Easy Customization.
--  Crafted for Design Agency/ Portfolio
+- Pre-built pages
+- Pre-styled components
+- Blog with pagination and category pages
+- Configurable navigation and footer
+- Multiple hero options
+- Configurable theme colors
+- Optimised for editing in CloudCannon
 
-## Support
+## Setup
 
-Have some question or facing any technical trouble feel free to [Contact Us](https://staticmania.com/contact/)
+Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or locally).
 
-## Licensing
+## Prerequisites
 
-This Repository is licensed under the [MIT](#) License
+## Quickstart
 
-## Hire
+2. Run `npm i` to install the modules.
+3. Run `npm run start` to run the project. this will create a \_site folder, where all the developed file will remain.
 
-Need help to build Eleventy websites with your custom requirements. Feel free to [contact](https://staticmania.com/contact/) with us. We provide custom development service for Eleventy.
+By default the site will be at `http://localhost:8080`
+
+## Editing
+
+Sendit is set up for adding, updating and removing pages, components, posts, navigation and footer elements in [CloudCannon](https://app.cloudcannon.com/).
+
+### Nav/footer details
+
+* Reused around the site to save multiple editing locations.
+* Set in the *Data* section with respective names
+
+### SEO details and favicon
+
+* Favicon and site SEO details are set in the *Data* / *Site* section
+* SEO details can also be set in pages for page specific details
+
+### Theme colors
+
+* Theme colors can be set in *Data* / *Site* / *theme*
+* The main colors are set and variants of them are computed
+* The colors will update on the next build

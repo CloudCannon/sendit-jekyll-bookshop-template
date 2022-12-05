@@ -2,15 +2,22 @@
 date: 2022-06-10
 title: 5 things to improve you email templates
 tags:
-  - blogs
+  - blog
   - marketing
 author: Aaron Britt
 thumb_img:
   image_path: /images/blog/blog-thumb-6.jpg
 featured_img:
   image_path: /images/blog/featured-image-2.jpg
+seo:
+  description: 
+  canonical_url: 
+  featured_image: /images/blog/featured-image-2.jpg
+  author_twitter_handle: 
+  og_type: article
+  noindex: false
 layout: blog-single
-permalink: /blogs/5-things-to-improve-you-email-templates
+permalink: /blog/5-things-to-improve-you-email-templates
 ---
 
 When you send an email campaign, you expect it to reach your readers, right? But what if the emails go straight to your subscribers' spam folders instead of their inboxes? To make sure your emails reach their recipients successfully, follow these email delivery tips.

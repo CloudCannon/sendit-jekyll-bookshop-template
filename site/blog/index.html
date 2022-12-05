@@ -1,7 +1,14 @@
 ---
 title: Resources to grow your email campaigns
 description: "We believe that a good email marketing strategy is the key to growth. So we’re helping you grow your business with tools and resources that make email marketing easy."
-layout: blogs
+seo:
+  description: "The stats are in our favour. SaaSFlow doesn't just help you with your email marketing, we get you customer relationships that last."
+  canonical_url: 
+  featured_image: 
+  author_twitter_handle: 
+  og_type: 
+  noindex: false
+layout: blog
 ---
 
 {% for blog in paginator.posts %}
@@ -58,9 +65,9 @@ layout: blogs
       <a
         class="page-link btn btn-secondary {% if pageEntry == paginator.page %}active{% endif %}"
         href="{%- if pageEntry == 1 -%}
-        {{ '/blogs' | relative_url }}
+        {{ '/blog' | relative_url }}
         {%- else -%}
-        {{ 'blogs/page' | append: pageEntry | relative_url }}
+        {{ 'blog/page' | append: pageEntry | relative_url }}
       {%- endif -%}"
         >{{forloop.index}}</a
       >

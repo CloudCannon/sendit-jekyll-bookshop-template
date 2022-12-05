@@ -1,17 +1,17 @@
 ---
 logo: "/images/footer-logo.svg"
 logo_url: "/"
-copyRight: " StaticMania, All rights reserved!"
+copyRight: " MyCompany, All rights reserved!"
 social:
-  - link: "https://www.facebook.com/mycompany"
+  - link: "https://www.facebook.com"
     social_icon: "ph-facebook-logo"
-  - link: "https://www.instagram.com/mycompany"
+  - link: "https://www.instagram.com"
     social_icon: "ph-instagram-logo"
-  - link: "https://www.twitter.com/mycompany"
+  - link: "https://www.twitter.com"
     social_icon: "ph-twitter-logo"
-  - link: "https://www.github.com/mycompany"
+  - link: "https://www.github.com"
     social_icon: "ph-github-logo"
-  - link: "https://www.youtube.com/mycompany"
+  - link: "https://www.youtube.com"
     social_icon: "ph-youtube-logo"
 sections:
   - title: Main Pages
@@ -24,13 +24,11 @@ sections:
         text: Price
       - link: /about
         text: About
-  - title: other Page
+  - title: Other Pages
     links:
-      - link: /blogs
-        text: Blogs
-      - link: /404
-        text: 404
-  - title: Other Page
+      - link: /blog
+        text: Blog
+  - title: Other Pages
     links:
       - link: /contact
         text: Contact
