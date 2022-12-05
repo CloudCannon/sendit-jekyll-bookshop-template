@@ -20,8 +20,7 @@
     "includeGit": false,
     "preserveOutput": false,
     "environment_variables": [
-      { "key": "JEKYLL_ENV", "value": "production" },
-      { "key": "BUNDLE_GEMFILE", "value": "site/Gemfile" }
+      { "key": "JEKYLL_ENV", "value": "production" }
     ],
     "jekyll_environment": "production"
   }
