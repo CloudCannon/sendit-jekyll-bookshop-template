@@ -19,9 +19,11 @@
                   <li class="list-inline-item">
                     <p>{{ words | divided_by:180 }} <span>minutes</span></p>
                   </li>
-                  <li class="list-inline-item">
-                    <p>{{ words }} <span>words</span></p>
-                  </li>
+                  {% if content != "" %}
+                    <li class="list-inline-item">
+                      <p>{{ words }} <span>words</span></p>
+                    </li>
+                  {% endif %}
                 </ul>
               </div>
             </div>

@@ -1,7 +1,6 @@
 ---
 logo: "/images/footer-logo.svg"
-logo_url: "/"
-copyRight: " MyCompany, All rights reserved!"
+copyright: " MyCompany, All rights reserved!"
 social:
   - link: "https://www.facebook.com"
     social_icon: "ph-facebook-logo"
@@ -24,11 +23,11 @@ sections:
         text: Price
       - link: /about
         text: About
-  - title: Other Pages
+  - title: Community
     links:
       - link: /blog
         text: Blog
-  - title: Other Pages
+  - title: Company
     links:
       - link: /contact
         text: Contact
