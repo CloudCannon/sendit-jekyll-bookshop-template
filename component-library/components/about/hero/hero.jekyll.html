@@ -8,8 +8,8 @@
           <div
             class="scroll-down d-flex justify-content-center justify-content-xl-start"
           >
-            <a href="{{include.btn.link}}" class="btn btn-primary btn-lg">
-              {{include.btn.text}}
+            <a href="{{include.button.link}}" class="btn btn-primary btn-lg">
+              {{include.button.text}}
             </a>
           </div>
         </div>
@@ -17,14 +17,14 @@
       <div class="col-xl-7 col-lg-12">
         <div class="about-hero-two-banner">
         {% for item in include.hero_images %}
-          <div class="{% if item.placer == "front_buttom" %}
+          <div class="{% if item.placement == "front_buttom" %}
           image-one
-        {% elsif item.placer == "back_top_right" %}
+        {% elsif item.placement == "back_top_right" %}
           image-two
-        {% elsif item.placer == "back_top_left" %}
+        {% elsif item.placement == "back_top_left" %}
           image-three
         {% endif %}">
-            <img src="{{item.image_path}}" alt="aboutfeature" loading="lazy"/>
+            <img src="{{item.image}}" alt="item.image_alt" loading="lazy"/>
           </div>
         {% endfor %}
           <div class="pattern">

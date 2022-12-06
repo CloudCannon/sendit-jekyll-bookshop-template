@@ -6,15 +6,15 @@
           <h1 class="">{{include.title}}</h1>
           {{include.description | markdownify}}
           <div class="d-block mb-6">
-            <a href="{{include.btn.link}}" class="btn btn-primary btn-lg">
-              {{include.btn.text}}
+            <a href="{{include.button.link}}" class="btn btn-primary btn-lg">
+              {{include.button.text}}
             </a>
           </div>
         </div>
       </div>
       <div class="col-lg-6">
         <div class="feature-hero-banner">
-          <img src="{{include.image_path}}" alt="banner-image" loading="lazy" />
+          <img src="{{include.image}}" alt="{{include.image_alt}}" loading="lazy" />
           <div class="shape">
             <img
               src="/images/feature/effect-4.png"

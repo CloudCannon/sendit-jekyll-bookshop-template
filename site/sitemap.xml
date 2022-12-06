@@ -9,7 +9,7 @@ layout: null
     {%- for item in all_pages %}
         {% unless item.seo.no_index %}
             <url>
-                <loc>{{ site.BaseURL }}{{ item.url | url }}</loc>
+                <loc>{{ site.data.site.BaseURL }}{{ item.url | url }}</loc>
                 <lastmod>{{ item.date | date: '%Y-%m-%d' }}</lastmod>
                 <changefreq>{% if item.seo.change_frequency %}{{ item.seo.change_frequency }}{% else %}monthly{% endif %}</changefreq>
             </url>

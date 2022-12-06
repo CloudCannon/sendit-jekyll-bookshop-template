@@ -2,7 +2,7 @@
 <html lang="en">
    <head>
       <meta charset="utf-8" />
-      <title>{{page.title}} | {{ site.site_title }}</title>
+      <title>{{page.title}} | {{ site.data.site.site_title }}</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
 
       {%- comment -%} Page description for SEO {%- endcomment -%}
@@ -62,9 +62,9 @@
 
       {%- comment -%} Canonical URL for SEO {%- endcomment -%}
       {% if page.SEO.canonical_url %}
-         <link rel="canonical" href="{{ site.BaseURL }}{{ page.SEO.canonical_url | url }}" />
+         <link rel="canonical" href="{{ site.data.site.BaseURL }}{{ page.SEO.canonical_url | url }}" />
       {% else %}
-         <link rel="canonical" href="{{ site.BaseURL }}{{ page.url | url }}" />
+         <link rel="canonical" href="{{ site.data.site.BaseURL }}{{ page.url | url }}" />
       {% endif %}
 
       {%- comment -%} Styles {%- endcomment -%}

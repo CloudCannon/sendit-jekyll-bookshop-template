@@ -6,15 +6,17 @@ tags:
   - marketing
 author: Wendy Parkes
 thumb_img:
-  image_path: /images/blog/blog-thumb-4.jpg
+  image: /images/blog/blog-thumb-4.jpg
+  image_alt: Group of people working
 featured_img:
-  image_path: /images/blog/featured-image-4.jpg
+  image: /images/blog/featured-image-4.jpg
+  image_alt: Person drinking coffee
 seo:
-  description: 
+  page_description: 
   canonical_url: 
   featured_image: /images/blog/featured-image-4.jpg
   author_twitter_handle: 
-  og_type: article
+  open_graph_type: article
   noindex: false
 layout: blog-single
 permalink: /blog/what-are-the-best-email-clients

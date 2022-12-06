@@ -6,19 +6,19 @@
           <h2>{{include.title}}</h2>
           {{include.description | markdownify}}
           <a
-            href="{{include.btn.link}}"
+            href="{{include.button.link}}"
             class="btn btn-lg btn-white"
             target="_blank">
-            {{include.btn.text}}
+            {{include.button.text}}
           </a>
         </div>
       </div>
       <div class="col-lg-6">
         <div class="works-banner">
           <img
-            src="{{include.video.image_path}}"
+            src="{{include.video.image}}"
             class="w-100"
-            alt="banner-image"
+            alt="{{include.video.image_alt}}"
             loading="lazy"
             style="border-radius: 20px" />
           <div class="effect">

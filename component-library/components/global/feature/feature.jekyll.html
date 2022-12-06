@@ -6,8 +6,8 @@
         <div class="feature-item-banner mb-sm-8 mb-lg-10 mb-xxl-15 mb-7">
           <div class="card-image">
             <img
-              src="{{include.image_path}}"
-              alt="card-images"
+              src="{{include.image}}"
+              alt="{{include.image_alt}}"
               loading="lazy" />
           </div>
           <div class="effect-one">
@@ -23,8 +23,8 @@
           <h2>{{include.title}}</h2>
           {{include.description | markdownify}}
           <div class="Learn-more">
-            <a href="{{include.btn.link}}" class="">
-              {{include.btn.text}}
+            <a href="{{include.button.link}}" class="">
+              {{include.button.text}}
               <i class="ph-arrow-right"></i>
             </a>
           </div>
@@ -38,8 +38,8 @@
           <h2 class="pe-xl-0">{{include.title}}</h2>
           {{include.description | markdownify}}
           <div class="Learn-more">
-            <a href="{{include.btn.link}}" class="">
-              {{include.btn.text}}
+            <a href="{{include.button.link}}" class="">
+              {{include.button.text}}
               <i class="ph-arrow-right"></i>
             </a>
           </div>
@@ -49,8 +49,8 @@
         <div class="feature-item-banner mb-sm-8 mb-lg-10 mb-xxl-15 mb-7">
           <div class="card-image">
             <img
-              src="{{include.image_path}}"
-              alt="card-images"
+              src="{{include.image}}"
+              alt="{{include.image_alt}}"
               loading="lazy" />
           </div>
           <div class="effect-two">

@@ -6,15 +6,17 @@ tags:
   - marketing
 author: Arther Conal
 thumb_img:
-  image_path: /images/blog/blog-thumb-2.jpg
+  image: /images/blog/blog-thumb-2.jpg
+  image_alt: People conversing
 featured_img:
-  image_path: /images/blog/featured-image-6.jpg
+  image: /images/blog/featured-image-2.jpg
+  image_alt: Children looking at a computer
 seo:
-  description: 
+  page_description: 
   canonical_url: 
   featured_image: /images/blog/featured-image-2.jpg
   author_twitter_handle: 
-  og_type: article
+  open_graph_type: article
   noindex: false
 layout: blog-single
 permalink: /blog/how-to-host-better-email-marketing-campaigns

@@ -6,15 +6,17 @@ tags:
   - marketing
 author: Aaron Britt
 thumb_img:
-  image_path: /images/blog/blog-thumb-6.jpg
+  image: /images/blog/blog-thumb-6.jpg
+  image_alt: People working on laptops and looking at charts
 featured_img:
-  image_path: /images/blog/featured-image-2.jpg
+  image: /images/blog/featured-image-2.jpg
+  image_alt: Children looking at a laptop
 seo:
-  description: 
+  page_description: 
   canonical_url: 
   featured_image: /images/blog/featured-image-2.jpg
   author_twitter_handle: 
-  og_type: article
+  open_graph_type: article
   noindex: false
 layout: blog-single
 permalink: /blog/5-things-to-improve-you-email-templates

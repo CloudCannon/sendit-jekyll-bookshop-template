@@ -6,15 +6,17 @@ tags:
   - technology
 author: Wendy Parkes
 thumb_img:
-  image_path: /images/blog/blog-thumb-3.jpg
+  image: /images/blog/blog-thumb-3.jpg
+  image_alt: Staff meeting
 featured_img:
-  image_path: /images/blog/featured-image-5.jpg
+  image: /images/blog/featured-image-5.jpg
+  image_alt: Laptop, phone and coffee
 seo:
-  description: 
+  page_description: 
   canonical_url: 
   featured_image: /images/blog/featured-image-5.jpg
   author_twitter_handle: 
-  og_type: article
+  open_graph_type: article
   noindex: false
 layout: blog-single
 permalink: /blog/best-email-sending-services

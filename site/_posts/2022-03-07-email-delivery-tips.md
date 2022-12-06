@@ -6,15 +6,17 @@ tags:
   - email
 author: Gerard Hopper
 thumb_img:
-  image_path: /images/blog/blog-thumb-1.jpg
+  image: /images/blog/blog-thumb-1.jpg
+  image_alt: Arial shot of people working
 featured_img:
-  image_path: /images/blog/featured-image.jpg
+  image: /images/blog/featured-image-1.jpg
+  image_alt: Child using a computer
 seo:
-  description: 
+  page_description: 
   canonical_url: 
   featured_image: /images/blog/featured-image-1.jpg
   author_twitter_handle: 
-  og_type: article
+  open_graph_type: article
   noindex: false
 layout: blog-single
 permalink: /blog/email-delivery-tips
