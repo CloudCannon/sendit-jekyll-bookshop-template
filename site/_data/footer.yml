@@ -3,15 +3,20 @@ logo: "/images/footer-logo.svg"
 copyright: " MyCompany, All rights reserved!"
 social:
   - link: "https://www.facebook.com"
-    social_icon: "ph-facebook-logo"
+    icon: "ph-facebook-logo"
+    icon_alt: "Facebook"
   - link: "https://www.instagram.com"
-    social_icon: "ph-instagram-logo"
+    icon: "ph-instagram-logo"
+    icon_alt: "Instagram"
   - link: "https://www.twitter.com"
-    social_icon: "ph-twitter-logo"
+    icon: "ph-twitter-logo"
+    icon_alt: "Twitter"
   - link: "https://www.github.com"
-    social_icon: "ph-github-logo"
+    icon: "ph-github-logo"
+    icon_alt: "GitHub"
   - link: "https://www.youtube.com"
-    social_icon: "ph-youtube-logo"
+    icon: "ph-youtube-logo"
+    icon_alt: "YouTube"
 sections:
   - title: Main Pages
     links:
@@ -33,3 +38,6 @@ sections:
         text: Contact
       - link: /privacy
         text: Privacy and Policy
+_inputs:
+  logo:
+    type: image

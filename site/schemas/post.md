@@ -1,7 +1,14 @@
 ---
 date: 
 title: 
-layout: layouts/blog-single.liquid
+seo:
+  page_description: 
+  canonical_url: 
+  featured_image: 
+  author_twitter_handle: 
+  open_graph_type: article
+  no_index: false
+layout: blog-single
 tags:
   - blog
 author: 
@@ -11,11 +18,4 @@ thumbImg:
 featuredImg:
   image: 
   image_alt: 
-seo:
-  page_description: 
-  canonical_url: 
-  featured_image: 
-  author_twitter_handle: 
-  open_graph_type: article
-  no_index: false
 ---

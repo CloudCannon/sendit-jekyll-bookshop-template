@@ -4,14 +4,14 @@
       {% for item in include.pricing_tier %}
       <div class="col-lg-4">
         <div
-          class="card pricing-item {% if item.is_active %} active {% endif %}">
+          class="card pricing-item {% if item.highlight_tier %} active {% endif %}">
           <h5 class="card-title">{{item.tier}}</h5>
           <p class="card-text">{{item.description}}</p>
           {% if item.has_discount %}
           <div class="price">
-            <p class="pricingtable">${{item.discount_price}}</p>
+            <p class="pricingtable">{{item.currency_symbol}}{{item.discount_price}}</p>
             <div class="discount">
-              <p>${{item.price}}</p>
+              <p>{{item.currency_symbol}}{{item.price}}</p>
               <div class="vector vector-one">
                 <img
                   src="/images/pricing/cross-shape.png"
@@ -28,7 +28,7 @@
           </div>
           {% else %}
           <div class="price">
-            <p><span>${{item.price}}</span></p>
+            <p><span>{{item.currency_symbol}}{{item.price}}</span></p>
             <div class="shape">
               <img
                 src="/images/pricing/shape-one.png"
@@ -39,11 +39,11 @@
           {% endif %}
           <div class="card-body">
             <ul class="list-unstyled">
-              {% for feature in item.feature %}
+              {% for feature in item.features %}
               <li
-                class="{% if feature.is_active == false %} deactive {% endif %}">
+                class="{% if feature.active_feature == false %} deactive {% endif %}">
                 <i
-                  class="ph-check {% if feature.is_active == false %} deactive {% endif %}"></i>
+                  class="ph-check {% if feature.active_feature == false %} deactive {% endif %}"></i>
                 {{feature.item}}
               </li>
               {% endfor %}

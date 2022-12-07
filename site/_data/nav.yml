@@ -13,6 +13,9 @@ items:
     text: Blog
   - link: "/contact"
     text: Contact
-btn:
+button:
   link: "/signup"
   text: Get Started
+_inputs:
+  logo:
+    type: image

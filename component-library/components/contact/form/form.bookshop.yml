@@ -15,9 +15,13 @@ blueprint:
   phone:
     heading: "Phone"
     cell: "(546) 232 - 9872"
+    image: /images/contact/call-add.svg
+    image_alt: call-add
   email:
     heading: "Email"
-    email: "info@staticmania.com"
+    email: "hello@example.com"
+    image: /images/contact/directbox-send.svg
+    image_alt: send-box
   form:
     heading: "Say Hello"
     fullname:
@@ -39,4 +43,24 @@ blueprint:
 preview:
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
-_inputs: {}
+_inputs: 
+  fullname:
+    options:
+      preview:
+        icon: person
+  phone:
+    options:
+      preview:
+        icon: phone
+  email:
+    options:
+      preview:
+        icon: email
+  message:
+    options:
+      preview:
+        icon: drive_file_rename_outline
+  submit_button:
+    options:
+      preview:
+        icon: send
