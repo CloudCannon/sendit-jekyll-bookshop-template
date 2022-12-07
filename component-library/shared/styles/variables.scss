@@ -17,7 +17,7 @@ $color-cyan: #808080;
 $color-cyan-dark: #f3f3f3;
 $color-cyan-light: #5f5f5f;
 //overwritten by site.json -> theme -> primary_color if set
-$color-primary: #e53b2a;
+$color-primary: violet;
 $color-primary-light: #e6ebf4;
 $color-primary-dark: mix($color-primary, $color-white, 12%);
 $color-gray-light: mix($color-primary, $color-white, 2%);
@@ -30,7 +30,7 @@ $color-secondary-dark: #f7f8fa;
 $color-anchor: #ffba08;
 $color-anchor-dark: mix($color-anchor, $color-white, 30%);
 //overwritten by site.json -> theme -> background_effects_color if set
-$color-background-effects: #faaa8f;
+$color-background-effects: green;
 
 $color-header: #000;
 $color-header-light: mix($color-anchor, $color-white, 4%);
