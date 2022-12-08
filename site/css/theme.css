@@ -151,7 +151,7 @@ a a:hover {
 }
 
 .load-mores {
-  color: violet;
+  color: #e53b2a;
   font-size: 20px;
   display: flex;
   align-items: center;
@@ -231,7 +231,7 @@ a a:hover {
 .privacy .nav-pills .nav-link.active,
 .privacy .nav-pills .show > .nav-link {
   background: none;
-  color: violet;
+  color: #e53b2a;
 }
 .privacy-nav {
   display: block;
@@ -337,7 +337,7 @@ a a:hover {
   margin-bottom: 1.5rem;
 }
 .section-header h2 span {
-  color: violet;
+  color: #e53b2a;
 }
 @media (max-width: 1399.98px) {
   .section-header h2 {
@@ -384,7 +384,7 @@ a a:hover {
 }
 
 .pricing-inner {
-  background: #fef8fe;
+  background: #fdf3f2;
 }
 
 .pricing-inner-two {
@@ -416,7 +416,7 @@ a a:hover {
   margin-top: 1rem;
 }
 .Learn-more a {
-  color: violet;
+  color: #e53b2a;
   display: flex;
   align-items: center;
   font-size: 18px;
@@ -626,7 +626,7 @@ a a:hover {
 
 .accordion-flush .accordion-collapse {
   border-width: 0;
-  border: 1px solid violet;
+  border: 1px solid #e53b2a;
 }
 
 .accordion-flush .accordion-item {
@@ -693,27 +693,27 @@ a a:hover {
 }
 .btn-primary {
   color: #fff;
-  background: violet;
-  border: 1px solid violet;
+  background: #e53b2a;
+  border: 1px solid #e53b2a;
   font-weight: 700;
 }
 .btn-primary:hover {
-  color: violet;
+  color: #e53b2a;
   background: #fff;
-  border-color: violet;
+  border-color: #e53b2a;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus, .btn-primary:active, .btn-primary:active:focus, .btn-primary:hover:focus {
   color: #fff !important;
-  background: violet !important;
+  background: #e53b2a !important;
   border: 1px solid transparent;
 }
 .btn-secondary {
   position: relative;
-  color: violet;
+  color: #e53b2a;
   text-align: center;
   text-transform: capitalize;
   background: #fff;
-  border: 1px solid violet;
+  border: 1px solid #e53b2a;
   transition: 0.3s all ease-in-out;
   padding: 1rem 1.9rem !important;
   display: flex;
@@ -726,11 +726,11 @@ a a:hover {
 }
 .btn-secondary svg path {
   transition: 0.3s all ease-in-out;
-  fill: violet;
+  fill: #e53b2a;
 }
 .btn-secondary:hover {
-  border: 1px solid violet;
-  background: violet;
+  border: 1px solid #e53b2a;
+  background: #e53b2a;
   color: #fff;
 }
 .btn-secondary:hover svg path {
@@ -738,38 +738,38 @@ a a:hover {
 }
 btn-check:focus + .btn-secondary, .btn-secondary:focus, .btn-secondary:active, .btn-secondary:active:focus, .btn-secondary:hover:focus {
   color: #fff !important;
-  background: violet;
-  border: 1px solid violet;
+  background: #e53b2a;
+  border: 1px solid #e53b2a;
 }
 btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-secondary:active svg path, .btn-secondary:active:focus svg path, .btn-secondary:hover:focus svg path {
   fill: #fff;
 }
 .btn-links {
   background: transparent;
-  color: violet;
-  border: 1px solid #fcebfc;
+  color: #e53b2a;
+  border: 1px solid #fbe0dd;
   position: relative;
   transition: all 0.3s ease-in-out;
 }
 .btn-check:focus + .btn-links, .btn-links:focus, .btn-links:active, .btn-links:active:focus, .btn-links:hover:focus, .btn-links:hover {
   color: #fff;
-  background: violet;
-  border: 1px solid #fcebfc;
+  background: #e53b2a;
+  border: 1px solid #fbe0dd;
 }
 .btn-white {
-  color: violet;
+  color: #e53b2a;
   background: #fff;
-  border: 1px solid #fcebfc;
+  border: 1px solid #fbe0dd;
   font-weight: 700;
 }
 .btn-white:hover {
-  background: violet;
+  background: #e53b2a;
   color: #fff;
-  border-color: violet;
+  border-color: #e53b2a;
 }
 .btn-check:focus + .btn-white, .btn-white:focus, .btn-white:active, .btn-white:active:focus, .btn-white:hover:focus {
   color: #fff !important;
-  background: violet !important;
+  background: #e53b2a !important;
   border: 1px solid transparent;
 }
 
@@ -793,20 +793,20 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
   text-decoration: underline;
 }
 .btn-link:hover {
-  color: violet;
+  color: #e53b2a;
 }
 
 /* button label Styles */
 .btn-submit {
   background: #fff;
-  color: violet;
+  color: #e53b2a;
   line-height: 1.6;
   font-size: 0.875rem;
-  border: 1px solid violet;
+  border: 1px solid #e53b2a;
   padding: 1.25rem 2.125rem !important;
 }
 .btn-submit:active, .btn-submit:focus, .btn-submit:hover, .btn-submit:checked + .btn:focus, .btn-submit:active + .btn:focus, .btn-submit:active:focus {
-  background: violet;
+  background: #e53b2a;
   color: #fff !important;
   border: 1px solid rgba(255, 255, 255, 0.4);
 }
@@ -12037,10 +12037,10 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
   z-index: 9;
 }
 .navbar-nav .nav-link.active {
-  color: violet;
+  color: #e53b2a;
 }
 .navbar-nav .nav-link:hover {
-  color: violet;
+  color: #e53b2a;
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .navbar-nav .nav-link {
@@ -12053,7 +12053,7 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
   background: #fff;
   min-width: 188px;
   transition: all 0.3s ease-in-out;
-  border: 0 solid #fdf0fd;
+  border: 0 solid #fce7e5;
   border-radius: 1.25rem;
   padding: 10px 30px 20px;
   right: 1.5rem;
@@ -12091,7 +12091,7 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
   background: none;
 }
 .navbar-nav .dropdown-item:hover {
-  color: violet;
+  color: #e53b2a;
 }
 .navbar-nav .dropdown .nav-arrow {
   position: absolute;
@@ -12111,7 +12111,7 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
     visibility: visible;
     transform: scaleY(0);
     top: 100%;
-    border: 1px solid #fcebfc;
+    border: 1px solid #fbe0dd;
     transform-origin: 0 0 0;
   }
   .navbar-nav .dropdown:hover .dropdown-menu {
@@ -12353,7 +12353,7 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
   transform: translateY(0px);
 }
 .footer-wrapper .social-icon ul li a:hover i {
-  color: violet;
+  color: #e53b2a;
   transform: translateY(-10px);
 }
 .footer-wrapper .social-icon a {
@@ -12481,12 +12481,12 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
   transform: scale(1.02);
 }
 .blog-post-tag a {
-  background: #fcebfc;
+  background: #fbe0dd;
   border-radius: 6px;
   padding: 4px 10px;
   text-decoration: none;
   font-size: 12px;
-  color: violet;
+  color: #e53b2a;
   font-weight: 500;
   margin-bottom: 0.9rem;
   font-family: "Sora", sans-serif;
@@ -12513,7 +12513,7 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
   }
 }
 .blog-post-title a:hover {
-  color: violet;
+  color: #e53b2a;
 }
 .blog-post-meta ul {
   padding: 0;
@@ -12699,8 +12699,8 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
   position: absolute;
   left: 20px;
   font-size: 10px;
-  background: #fcebfc;
-  color: violet;
+  background: #fbe0dd;
+  color: #e53b2a;
   padding: 7px 10px;
   border-radius: 5px;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
@@ -12716,14 +12716,14 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
   content: "";
   height: 8px;
   width: 8px;
-  background: #fcebfc;
+  background: #fbe0dd;
   top: 50%;
   left: 0%;
   transform: translate(-50%, -50%) rotate(45deg);
   transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .blog-details .social-icon .icon:hover svg path {
-  fill: violet;
+  fill: #e53b2a;
 }
 .blog-details .social-icon .icon:hover .tooltip {
   left: 45px;
@@ -12755,7 +12755,7 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
 }
 .blog-related {
   padding: 7rem 0 5rem;
-  background: #fef8fe;
+  background: #fdf3f2;
 }
 @media (max-width: 1199.98px) {
   .blog-related {
@@ -12889,7 +12889,7 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
   transition: all 0.3s ease-in-out;
 }
 .about-hero-two-content .scroll-down a:hover {
-  color: violet;
+  color: #e53b2a;
 }
 .about-hero-two-banner {
   position: relative;
@@ -12915,7 +12915,7 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
 .about-hero-two-banner .image-three::after {
   position: absolute;
   content: "";
-  background: violet;
+  background: #e53b2a;
   width: 100%;
   height: 100%;
   border-radius: 20px;
@@ -13000,7 +13000,7 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
   -webkit-mask-repeat: no-repeat;
   mask-size: contain;
   -webkit-mask-size: contain;
-  background: green;
+  background: #faaa8f;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -13171,7 +13171,7 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
 .works-banner::after {
   position: absolute;
   content: "";
-  background: violet;
+  background: #e53b2a;
   width: 100%;
   height: 100%;
   border-radius: 20px;
@@ -13182,7 +13182,7 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
 .works-banner .effect {
   -webkit-mask-image: url(/images/works/effect.png);
   mask-image: url(/images/works/effect.png);
-  background: green;
+  background: #faaa8f;
   position: absolute;
   top: -96px;
   left: -89px;
@@ -13216,9 +13216,9 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
 }
 .works-banner .video-icon a {
   position: absolute;
-  border: 2px solid violet;
+  border: 2px solid #e53b2a;
   border-radius: 50%;
-  background: violet;
+  background: #e53b2a;
   z-index: 1;
   width: 86px;
   height: 86px;
@@ -13381,7 +13381,7 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
 .contact-form .effect {
   -webkit-mask-image: url(/images/contact/effects.png);
   mask-image: url(/images/contact/effects.png);
-  background: green;
+  background: #faaa8f;
   position: absolute;
   top: -10%;
   left: -14%;
@@ -13443,7 +13443,7 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
 }
 
 .feature-hero {
-  background: #fef8fe;
+  background: #fdf3f2;
   padding: 8rem 0 4rem;
   overflow: hidden;
 }
@@ -13528,7 +13528,7 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
 .feature-hero-banner .shape {
   -webkit-mask-image: url(/images/feature/effect-4.png);
   mask-image: url(/images/feature/effect-4.png);
-  background: green;
+  background: #faaa8f;
   position: absolute;
   top: 2%;
   z-index: -1;
@@ -13538,6 +13538,9 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
   visibility: hidden;
 }
 
+/********** 
+ 20. Counter Up Section Styles
+**********/
 .counter-up .section-header {
   padding: 5rem 0 3.1rem;
 }
@@ -13617,6 +13620,7 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
 }
 .counter-up-content {
   position: relative;
+  height: 100%;
 }
 @media (max-width: 991.98px) {
   .counter-up-content:nth-child(2) .counter-up-content-item, .counter-up-content:nth-child(4) .counter-up-content-item {
@@ -13687,7 +13691,7 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
 
 .faq-two {
   padding-bottom: 9.4rem;
-  background: #fef8fe;
+  background: #fdf3f2;
 }
 @media (max-width: 1199.98px) {
   .faq-two {
@@ -13755,7 +13759,7 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
 .feature-two-item-banner .effect-one {
   -webkit-mask-image: url(/images/feature/effect-1.png);
   mask-image: url(/images/feature/effect-1.png);
-  background: green;
+  background: #faaa8f;
   left: -11%;
   width: 110%;
   height: 125%;
@@ -13772,7 +13776,7 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
 .feature-two-item-banner .effect-two {
   -webkit-mask-image: url(/images/feature/effect-2.png);
   mask-image: url(/images/feature/effect-2.png);
-  background: green;
+  background: #faaa8f;
   width: 132%;
   height: 130%;
   top: -21%;
@@ -13889,7 +13893,7 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
   background: #fffcf5;
 }
 .sing-up-body {
-  background: violet;
+  background: #e53b2a;
   border-radius: 1.25rem;
   padding: 70px 80px 50px;
   max-width: 650px;
@@ -14036,7 +14040,7 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
 }
 .sing-up .btn-check:checked[type=radio] + label {
   background: #fff;
-  color: violet !important;
+  color: #e53b2a !important;
 }
 .sing-up .input-group-password {
   display: block;
@@ -14078,7 +14082,7 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
   background: #fffcf5;
 }
 .sing-up-body {
-  background: violet;
+  background: #e53b2a;
   border-radius: 1.25rem;
   padding: 70px 80px 50px;
   max-width: 650px;
@@ -14225,7 +14229,7 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
 }
 .sing-up .btn-check:checked[type=radio] + label {
   background: #fff;
-  color: violet !important;
+  color: #e53b2a !important;
 }
 .sing-up .input-group-password {
   display: block;
@@ -14335,7 +14339,7 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
 }
 .hero-two {
   position: relative;
-  background: #fef8fe;
+  background: #fdf3f2;
   padding: 11.3rem 0 5rem;
   z-index: 1;
   overflow: hidden;
@@ -14363,7 +14367,7 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
 .hero-two-shape {
   -webkit-mask-image: url(/images/hero/hero-two-shape.png);
   mask-image: url(/images/hero/hero-two-shape.png);
-  background: green;
+  background: #faaa8f;
   position: absolute;
   top: 0;
   left: 0;
@@ -14443,7 +14447,7 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
 .hero-two-banner-shape {
   -webkit-mask-image: url(/images/hero/hero-three-shape.png);
   mask-image: url(/images/hero/hero-three-shape.png);
-  background: green;
+  background: #faaa8f;
   width: 904px;
   height: 1016px;
   position: absolute;
@@ -14490,7 +14494,7 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
 .video .banner::after {
   position: absolute;
   content: "";
-  background: violet;
+  background: #e53b2a;
   width: 100%;
   height: 100%;
   border-radius: 20px;
@@ -14509,7 +14513,7 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
 .video .banner .effect-one {
   -webkit-mask-image: url(/images/video/effect-one.png);
   mask-image: url(/images/video/effect-one.png);
-  background: green;
+  background: #faaa8f;
   position: absolute;
   top: 54%;
   left: -89px;
@@ -14535,7 +14539,7 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
 .video .banner .effect-two {
   -webkit-mask-image: url(/images/video/effect-two.png);
   mask-image: url(/images/video/effect-two.png);
-  background: green;
+  background: #faaa8f;
   position: absolute;
   top: -96px;
   right: -80px;
@@ -14561,9 +14565,9 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
 }
 .video-icon a {
   position: absolute;
-  border: 2px solid violet;
+  border: 2px solid #e53b2a;
   border-radius: 50%;
-  background: violet;
+  background: #e53b2a;
   z-index: 1;
   width: 86px;
   height: 86px;
@@ -14801,12 +14805,12 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
 .pricing .card .price .shape-one {
   -webkit-mask-image: url(/images/pricing/shape-one.png);
   mask-image: url(/images/pricing/shape-one.png);
-  background: green;
+  background: #faaa8f;
 }
 .pricing .card .price .shape-two {
   -webkit-mask-image: url(/images/pricing/shape-two.png);
   mask-image: url(/images/pricing/shape-two.png);
-  background: green;
+  background: #faaa8f;
 }
 .pricing .card .price .shape-two, .pricing .card .price .shape-one {
   position: absolute;
@@ -14857,7 +14861,7 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
 }
 .pricing .card-body ul li i {
   margin-right: 1.1rem;
-  color: violet;
+  color: #e53b2a;
 }
 @media (max-width: 1199.98px) {
   .pricing .card-body ul li i {
@@ -14881,14 +14885,14 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
   color: #ababab;
 }
 .pricing .active {
-  border: 1px solid violet;
+  border: 1px solid #e53b2a;
 }
 .pricing .active .card-title {
-  color: violet;
+  color: #e53b2a;
 }
 .pricing .active .link a {
   color: #fff;
-  background: violet;
+  background: #e53b2a;
 }
 
 .privacy-hero {
@@ -14955,7 +14959,7 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
 .privacy .nav-pills .nav-link.active,
 .privacy .nav-pills .show > .nav-link {
   background: none;
-  color: violet;
+  color: #e53b2a;
 }
 .privacy-nav {
   display: block;
