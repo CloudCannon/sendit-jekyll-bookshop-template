@@ -12,8 +12,8 @@
                 >{{include.phone.cell}}
                 <span>
                   <img
-                    src="/images/contact/call-add.svg"
-                    alt="call-add"
+                    src="{{ include.phone.image }}"
+                    alt="{{ include.phone.image_alt }}"
                     loading="lazy" />
                 </span>
               </a>
@@ -24,8 +24,8 @@
                 >{{include.email.email}}
                 <span>
                   <img
-                    src="/images/contact/directbox-send.svg"
-                    alt="send-box"
+                    src="{{ include.email.image }}"
+                    alt="{{ include.email.image_alt }}"
                     loading="lazy" />
                 </span>
               </a>
@@ -89,16 +89,12 @@
             <div class="col-12">
               <button type="submit" class="btn btn-primary btn-lg mt-7">
                 <span class="position-relative"
-                  >{{include.form.submit_btn.text}}</span
+                  >{{include.form.submit_button.text}}</span
                 >
               </button>
             </div>
           </form>
           <div class="effect">
-            <img
-              src="/images/contact/effects.png"
-              alt="effects"
-              loading="lazy" />
           </div>
         </div>
       </div>

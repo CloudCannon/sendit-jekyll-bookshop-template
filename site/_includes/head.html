@@ -2,18 +2,81 @@
 <html lang="en">
    <head>
       <meta charset="utf-8" />
-      <title>{{page.title}} | SenDit</title>
+      <title>{{page.title}} | {{ site.data.site.site_title }}</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta
-         name="description"
-         content="SenDit is a email marketing tool which ensure the business growth"
-      />
+
+      {%- comment -%} Page description for SEO {%- endcomment -%}
+      {% if page.SEO.page_description %}
+         <meta name="description" content="{{ page.SEO.page_description }}">
+         <meta property="og:description" content="{{ page.SEO.page_description }}" />
+      {% else %}
+         <meta name="description" content="{{ site.data.site.description }}">
+         <meta property="og:description" content="{{ site.data.site.description }}" />
+      {% endif %}
+
+      {% comment %} meta tags for open graph and twitter {% endcomment %}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:site" content="{{ site.data.site.twitter_site }}" />
+      {% if page.url == "/" %}
+         <meta name="og:title" content="{{site.data.site.site_title }}" />
+         <meta property="og:type" content="website" />
+         <meta name="og:image" content="{{ site.data.site.image }}" />
+         <meta name="twitter:creator" content="{{ site.data.site.twitter_site }}" />
+         <meta name="twitter:title" content="{{ site.data.site.site_title }}" />
+         {% if site.data.site.twitter_image %}
+            <meta name="twitter:image" content="{{ site.data.site.twitter_image }}" />
+         {% else %}
+            <meta name="twitter:image" content="{{ site.data.site.image }}" />
+         {% endif %}
+      {% else %}
+         <meta name="og:title" content="{{ page.title }}" />
+         <meta name="twitter:title" content="{{ page.title }}" />
+         {% if page.SEO.open_graph_type %}
+            <meta property="og:type" content="{{ page.SEO.open_graph_type }}" />
+         {% else %}
+            <meta property="og:type" content="website" />
+         {% endif %}
+         {% if page.SEO.featured_image %}
+            <meta name="og:image" content="{{ page.SEO.featured_image }}" />
+            <meta name="twitter:image" content="{{ page.SEO.featured_image }}" />
+         {% else %}
+            <meta name="og:image" content="{{ site.data.site.image }}" />
+            {% if site.data.site.twitter_image %}
+               <meta name="twitter:image" content="{{ site.data.site.twitter_image }}" />
+            {% else %}
+               <meta name="twitter:image" content="{{site.data.site.image }}" />
+            {% endif %}
+         {% endif %}
+         {% if page.SEO.author_twitter_handle %}  
+            <meta name="twitter:creator" content="{{ page.SEO.author_twitter_handle }}" />
+         {% else %}
+            <meta name="twitter:creator" content="{{ site.data.site.twitter_site }}" />
+         {% endif %}
+      {% endif %}
+
+      {% comment %} Add robots no index {% endcomment %}
+      {% if page.SEO.no_index %}
+         <meta name="robots" content="noindex">
+         <meta name="googlebot" content="noindex">
+      {% endif %}
+
+      {%- comment -%} Canonical URL for SEO {%- endcomment -%}
+      {% if page.SEO.canonical_url %}
+         <link rel="canonical" href="{{ site.data.site.BaseURL }}{{ page.SEO.canonical_url | url }}" />
+      {% else %}
+         <link rel="canonical" href="{{ site.data.site.BaseURL }}{{ page.url | url }}" />
+      {% endif %}
+
+      {%- comment -%} Styles {%- endcomment -%}
       <link href="/vendor/bootstrap/bootstrap.min.css" rel="stylesheet" />
       <link href="/vendor/phosphor-icons/css/phosphor.css" rel="stylesheet" />
       <link href="/vendor/magnific-popup/magnific-popup.css" rel="stylesheet" />
       <link rel="stylesheet" href="/css/theme.css" />
-      <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
-      <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
+
+      {%- comment -%} Favicon {%- endcomment -%}
+      <link rel="shortcut icon" href="{{ site.data.site.favicon_icon }}" type="image/x-icon" />
+      <link rel="icon" href="{{ site.data.site.favicon_image }}" type="image/x-icon" />
+      <link rel="apple-touch-icon" href="{{ site.data.site.favicon_image }}">
    </head>
    <body>
       <header>
@@ -102,22 +165,19 @@
                </button>
                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav mx-auto mb-20 mb-lg-0">
-                     {% for item in nav.items %} {% if item.link == "/" %} {% assign url = item.link
-                     %} {% else %} {% assign url = item.link | append: "/" %} {% endif %}
-                     <li class="nav-item">
-                        <a
-                           class="nav-link {% if page.url == url%}active{% endif %}"
-                           href="{{ item.link }}"
-                           >{{ item.text }}</a
-                        >
-                     </li>
+                     {% for item in nav.items %} 
+                     {% assign url = item.link %} 
+                        <li class="nav-item">
+                           <a class="nav-link {% if page.url == url %}active{% endif %}"
+                              href="{{ item.link }}">{{ item.text }}</a>
+                        </li>
                      {% endfor %}
                   </ul>
                </div>
                <div class="d-none d-lg-block">
                   <div class="nav-item">
-                     <a href="{{ nav.btn.link }}" class="btn btn-sm btn-links"
-                        >{{ nav.btn.text }}</a
+                     <a href="{{ nav.button.link }}" class="btn btn-sm btn-links"
+                        >{{ nav.button.text }}</a
                      >
                   </div>
                </div>

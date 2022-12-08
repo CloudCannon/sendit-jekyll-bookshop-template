@@ -1,0 +1,18 @@
+---
+permalink: /sitemap.xml
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    {% assign collection_docs = site.documents %}
+    {% assign all_pages = site.html_pages | concat: collection_docs %}
+    {%- for item in all_pages %}
+        {% unless item.seo.no_index %}
+            <url>
+                <loc>{{ site.data.site.BaseURL }}{{ item.url | url }}</loc>
+                <lastmod>{{ item.date | date: '%Y-%m-%d' }}</lastmod>
+                <changefreq>{% if item.seo.change_frequency %}{{ item.seo.change_frequency }}{% else %}monthly{% endif %}</changefreq>
+            </url>
+        {% endunless %}
+    {%- endfor %}
+</urlset>

@@ -9,13 +9,13 @@
             data-bs-offset="0"
             class="scrollspy-example"
             tabindex="0">
-            {% for item in include.privacy %} {% if item.key == "descriptive" %}
+            {% for item in include.terms_and_conditions %} {% if item.key == "descriptive" %}
             <div class="privacy-items" id="item{{forloop.index}}">
               <div class="card">
                 <h3 class="sub-title">{{item.heading}}</h3>
                 <div class="card-body">
                   <div class="card-text">
-                    {{item.description | markdownify}}
+                    {{item.description }}
                   </div>
                 </div>
               </div>
@@ -26,7 +26,7 @@
                 <h3 class="sub-title">{{item.heading}}</h3>
                 <div class="card-body">
                   <div class="card-text">
-                    {{item.description | markdownify}}
+                    {{item.description }}
                   </div>
                 </div>
               </div>
@@ -37,7 +37,7 @@
         <div class="col-lg-4">
           <nav id="scrol-nav" class="navbar navbar-light privacy-nav">
             <ul class="nav nav-pills">
-              {% for item in include.privacy %} {% if forloop.index == 1 %}
+              {% for item in include.terms_and_conditions %} {% if forloop.index == 1 %}
               <li class="nav-item">
                 <a class="nav-link active" href="#item{{forloop.index}}"
                   >{{item.heading}}</a

@@ -23,8 +23,8 @@ blueprint:
       heading: Retype Password
     checkbox_text: By registering, you accept our Conditions, Use Policy and
       Privacy Notice.
-    signup_text: Create an Account
-    login_btn:
+    sign_up_text: Create an Account
+    log_in_button:
       link: /login
       text: Log In
 
@@ -32,4 +32,24 @@ blueprint:
 preview:
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
-_inputs: {}
+_inputs: 
+  fullname:
+    options:
+      preview:
+        icon: person
+  email:
+    options:
+      preview:
+        icon: email
+  password:
+    options:
+      preview:
+        icon: password
+  retype_password:
+    options:
+      preview:
+        icon: password
+  log_in_button:
+    options:
+      preview:
+        icon: login

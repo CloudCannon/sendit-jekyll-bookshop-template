@@ -2,15 +2,24 @@
 date: 2022-03-07
 title: How to host better email marketing campaigns?
 tags:
-  - blogs
+  - blog
   - marketing
 author: Arther Conal
 thumb_img:
-  image_path: /images/blog/blog-thumb-2.jpg
+  image: /images/blog/blog-thumb-2.jpg
+  image_alt: People conversing
 featured_img:
-  image_path: /images/blog/featured-image-6.jpg
+  image: /images/blog/featured-image-2.jpg
+  image_alt: Children looking at a computer
+seo:
+  page_description: 
+  canonical_url: 
+  featured_image: /images/blog/featured-image-2.jpg
+  author_twitter_handle: 
+  open_graph_type: article
+  noindex: false
 layout: blog-single
-permalink: /blogs/how-to-host-better-email-marketing-campaigns
+permalink: /blog/how-to-host-better-email-marketing-campaigns
 ---
 
 When you send an email campaign, you expect it to reach your readers, right? But what if the emails go straight to your subscribers' spam folders instead of their inboxes? To make sure your emails reach their recipients successfully, follow these email delivery tips.
