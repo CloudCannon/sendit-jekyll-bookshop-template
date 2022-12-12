@@ -7,7 +7,7 @@
       "bookshop-sass:fetch-theme-color": "node site/js/fetch-theme-color.js",
       "bookshop-sass:build": "bookshop-sass -b component-library -o site/css/theme.css",
       "bookshop-sass:watch": "bookshop-sass -b component-library -o site/css/theme.css -w",
-      "jekyll": "bundle exec jekyll serve --port 6060 --trace --unpublished --source site --config 'site/_config.yml",
+      "jekyll": "bundle exec jekyll serve --port 6060 --trace --unpublished",
       "start": "npm-run-all bookshop-sass:fetch-theme-color bookshop-sass:build --parallel bookshop-sass:watch bookshop:watch jekyll"
 
    },
