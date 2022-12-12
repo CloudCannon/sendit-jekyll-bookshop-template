@@ -3,13 +3,14 @@
    "version": "1.0.0",
    "description": "Sendit is a email marketing tool which ensures the business growth",
    "scripts": {
-      "bookshop:watch": "bookshop-browser",
+      "bookshop": "bookshop-browser",
       "bookshop-sass:fetch-theme-color": "node site/js/fetch-theme-color.js",
       "bookshop-sass:build": "bookshop-sass -b component-library -o site/css/theme.css",
       "bookshop-sass:watch": "bookshop-sass -b component-library -o site/css/theme.css -w",
       "jekyll": "bundle exec jekyll serve --port 6060 --trace --unpublished",
-      "start": "npm-run-all bookshop-sass:fetch-theme-color bookshop-sass:build --parallel bookshop-sass:watch bookshop:watch jekyll"
-
+      "start": "npm-run-all bookshop-sass:fetch-theme-color bookshop-sass:build --parallel bookshop-sass:watch bookshop jekyll",
+      "package-install": "bundle install && npm i",
+      "build": "jekyll build"
    },
    "author": "CloudCannon",
    "license": "MIT",
