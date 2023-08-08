@@ -1,4 +1,7 @@
+ruby '3.1.2'
+
 source "https://rubygems.org"
+
 
 group :jekyll_plugins do
   gem "jekyll-bookshop", "3.6.5"
