@@ -11,8 +11,9 @@ collections_config:
     _enabled_editors:
       - visual
     filter:
-      exclude:
-        - schemas/
+      base: none
+      include:
+        - '*.html'
   blog:
     path: _posts
     icon: article
