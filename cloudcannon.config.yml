@@ -13,7 +13,7 @@ collections_config:
     filter:
       base: none
       include:
-        - '*.html'
+        - *.html
   blog:
     path: _posts
     icon: article
