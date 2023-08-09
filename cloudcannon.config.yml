@@ -1,3 +1,4 @@
+source: site
 data_config:
   blog-tags: true
 collections_config:
