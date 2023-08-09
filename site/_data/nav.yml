@@ -27,9 +27,16 @@ items:
   - link: "/contact"
     text: Contact
     enable_dropdown: false
-button:
+enable_nav_button: false
+nav_button:
   link: "/signup"
   text: Get Started
+
+
 _inputs:
   logo:
     type: image
+  nav_button:
+    hidden: "!enable_button"
+  enable_nav_button:
+    type: switch
