@@ -63,4 +63,18 @@ $(document).ready(function () {
     }
   });
   //end  Scroll spy style
+
+  $('.nav-item.dropdown > .dropdown-link').on('click', function(e) {
+    if($(window).width() < 991.98) {
+      e.preventDefault();
+      var dropdownOpened = $(this).parent().hasClass('show');
+      $('.dropdown').removeClass('show');
+      $('.dropdown-menu').removeClass('show');
+      
+      if (!dropdownOpened) {
+        $(this).next('.dropdown-menu').addClass('show');
+        $(this).parent('.dropdown').addClass('show');
+      }
+    }
+  });
 });
