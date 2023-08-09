@@ -1,5 +1,4 @@
 source: site
-collections_config_override: false
 data_config:
   blog-tags: true
 collections_config:
@@ -7,7 +6,6 @@ collections_config:
     icon: feed
     disable_add_folder: true
     output: true
-    path: pages
     schemas:
       page:
         path: site/schemas/page.html
