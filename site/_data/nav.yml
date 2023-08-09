@@ -37,6 +37,6 @@ _inputs:
   logo:
     type: image
   nav_button:
-    hidden: "!enable_button"
+    hidden: "!enable_nav_button"
   enable_nav_button:
     type: switch
