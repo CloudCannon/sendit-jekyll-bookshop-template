@@ -6,7 +6,6 @@ collections_config:
     icon: feed
     disable_add_folder: true
     output: true
-    path: site
     schemas:
       page:
         path: site/schemas/page.html
