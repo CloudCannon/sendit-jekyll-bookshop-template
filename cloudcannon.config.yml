@@ -11,7 +11,16 @@ collections_config:
         path: site/schemas/page.html
     _enabled_editors:
       - visual
-  blog:
+  blog_layout:
+    path: blog
+    icon: article
+    disable_add_folder: true
+    disable_add: true 
+    output: true 
+    _enabled_editors:
+      - content
+      - visual
+  articles:
     path: _posts
     icon: article
     disable_add_folder: true
@@ -72,7 +81,8 @@ collection_groups:
       - pages
   - heading: Blogging
     collections:
-      - blog
+      - blog_layout
+      - articles
   - heading: Site Settings
     collections:
       - meta_data
