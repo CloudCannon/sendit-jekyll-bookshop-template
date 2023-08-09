@@ -197,7 +197,7 @@ _inputs:
   tags:
     type: multiselect
     options: 
-      values: data.blog-tags
+      values: _data.blog-tags
   layout:
     hidden: true
   twitter_site:
