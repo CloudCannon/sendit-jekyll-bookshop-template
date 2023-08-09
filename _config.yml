@@ -1,6 +1,6 @@
 title: Sendit Jekyll
 
-site: source
+source: site
 
 plugins:
   - jekyll-bookshop
