@@ -114,7 +114,13 @@ _structures:
       value:
         link:
         text: 
-
+  items:
+    values:
+      value:
+        link: 
+        text:
+        enable_dropdown:
+        dropdown:
 
 _inputs:
   date:
@@ -144,6 +150,7 @@ _inputs:
         icon: link
   items:
     options:
+      structures: _structures.items
       preview:
         icon: link
   social[*].icon:
