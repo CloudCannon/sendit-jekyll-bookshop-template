@@ -108,7 +108,7 @@ _structures:
 
 _inputs:
   date:
-    type: date
+    instance_value: now
   title_suffix:
     comment: Added at the end of the title and highlighted in a different color
   pagination.data:
@@ -119,10 +119,17 @@ _inputs:
     type: number
   social:
     options:
+      structures: _structures.social 
       preview:
         icon: link
   links:
     options:
+      structures: _structures.links
+      preview:
+        icon: link
+  sections:
+    options:
+      structures: _structures.sections
       preview:
         icon: link
   items:
@@ -145,7 +152,7 @@ _inputs:
   isActive:
     type: switch
   page_description:
-    comment: Defaults to the description set in the Site SEO data file
+    comment: If empty, defaults to the description set in the Site SEO data file 
   favicon_icon:
     type: image
     comment: For the shortcut icon meta tag
@@ -153,16 +160,47 @@ _inputs:
     type: image
     comment: For the icon meta tag
   canonical_url:
-    comment: Defaults to the pages url
+    comment: If empty, defaults to the page URL
   featured_image:
     comment: Defaults to the image set in the Site SEO data file
   open_graph_type:
-    comment: Defaults to the type 'website'
+    type: select
+    options:
+      values: 
+        - website
+        - article
+        - profile
   author_twitter_handle:
+    type: twitter
     comment: Defaults to the twitter site value set in the Site SEO data file
   no_index:
     type: checkbox
     comment: When selected this removes the page from your sitemap and adds the noindex robots meta tag
+  enable_dropdown:
+    type: switch
+  dropdown:
+    type: array
+    options: 
+      structures: _structures.dropdown
+    label: Dropdown Items
+    hidden: "!enable_dropdown"
+  dropdown_link:
+    type: url
+    label: Link
+  dropdown_text:
+    type: text
+    label: Name
+  logo:
+    type: image
+  permalink:
+    type: text
+    comment: Prefix the url with a forward slash e.g. /blog/
+  tags:
+    type: multiselect
+    options: 
+      values: data.blog-tags
   layout:
     hidden: true
-  
+  twitter_site:
+    type: twitter
+    label: Twitter Username
