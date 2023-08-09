@@ -1,4 +1,3 @@
-source: site
 collections_config_override: false
 data_config:
   blog-tags: true
