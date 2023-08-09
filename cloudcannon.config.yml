@@ -6,11 +6,6 @@ collections_config:
     icon: feed
     disable_add_folder: true
     output: true
-    parse_branch_index: true
-    filter:
-      exclude:
-        - /schemas 
-        - /blog
     schemas:
       page:
         path: site/schemas/page.html
