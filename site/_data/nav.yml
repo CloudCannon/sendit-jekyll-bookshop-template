@@ -33,10 +33,3 @@ nav_button:
   text: Get Started
 
 
-_inputs:
-  logo:
-    type: image
-  nav_button:
-    hidden: "!enable_nav_button"
-  enable_nav_button:
-    type: switch
