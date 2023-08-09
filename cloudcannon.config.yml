@@ -66,7 +66,7 @@ collections_config:
       base: none
       include: 
         - theme.json
-        
+
 collection_groups:
   - heading: Pages
     collections:
@@ -79,6 +79,32 @@ collection_groups:
       - meta_data
       - theme_palette
       - site_navigation
+
+_structures:
+  content_blocks:
+    style: modal
+  dropdown: 
+    values:
+      value:
+        dropdown_text:
+        dropdown_link:
+  social:
+    values:
+      value:
+        link: 
+        icon: 
+        icon_alt:
+  sections:
+    values:
+      value:
+        title:
+        links:  
+  links:
+    values:
+      value:
+        link:
+        text: 
+
 
 _inputs:
   date:
