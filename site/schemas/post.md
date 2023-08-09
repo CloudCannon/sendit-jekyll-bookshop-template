@@ -18,5 +18,4 @@ thumbImg:
 featuredImg:
   image: 
   image_alt:
-draft: true 
 ---
