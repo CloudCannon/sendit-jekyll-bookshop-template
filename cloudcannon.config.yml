@@ -1,4 +1,3 @@
-collections_config_override: true
 data_config:
   blog-tags: true
 collections_config:
@@ -204,10 +203,3 @@ _inputs:
   twitter_site:
     type: twitter
     label: Twitter Username
-  
-
-paths:
-  uploads: images
-  data: _data 
-  includes: _includes
-  layouts: _layouts
