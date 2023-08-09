@@ -1,3 +1,4 @@
+source: site
 data_config:
   blog-tags: true
 collections_config:
@@ -10,10 +11,6 @@ collections_config:
         path: site/schemas/page.html
     _enabled_editors:
       - visual
-    filter:
-      base: none
-      include:
-        - *.html
   blog:
     path: _posts
     icon: article
