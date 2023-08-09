@@ -215,5 +215,5 @@ _inputs:
     type: twitter
     label: Twitter Username
 
-path:
+paths:
   uploads: images
