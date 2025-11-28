@@ -1,0 +1,28 @@
+{
+    "ssg": "jekyll",
+    "mode": "hosted",
+    "build": {
+        "install_command": "bundle install",
+        "build_command": "bundle exec jekyll build",
+        "output_path": "_site",
+        "environment_variables": [
+            {
+                "key": "GEM_HOME",
+                "value": "/usr/local/__site/src/.bundle_cache/"
+            },
+            {
+                "key": "BUNDLE_GEMFILE",
+                "value": "Gemfile"
+            },
+            {
+                "key": "JEKYLL_ENV",
+                "value": "production"
+            }
+        ],
+        "preserved_paths": "node_modules/,.bundle_cache/",
+        "hugoVersion": "0.128.1",
+        "rubyVersion": "file",
+        "nodeVersion": "18",
+        "denoVersion": "1.40.2"
+    }
+}
