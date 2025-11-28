@@ -6,10 +6,10 @@
     <div class="row align-items-center">
       <div class="col-lg-6">
         <div class="hero-two-content">
-          <h1 class="mb-4">{{include.title}}</h1>
-          <div class="mb-7 w-xxl-80">{{include.description | markdownify}}</div>
+          <h1 class="mb-4" data-editable="text" data-prop="title">{{include.title}}</h1>
+          <div class="mb-7 w-xxl-80" data-editable="text" data-prop="description">{{include.description | markdownify}}</div>
           <div class="">
-            <a href="{{include.button.url}}" class="btn btn-primary btn-lg">
+            <a href="{{include.button.url}}" class="btn btn-primary btn-lg" data-editable="text" data-prop="button.text">
               {{include.button.text}}
             </a>
           </div>
@@ -17,7 +17,7 @@
       </div>
       <div class="col-lg-6">
         <div class="hero-two-banner">
-          <img src="{{include.image}}" alt="{{include.image_alt}}" />
+          <img src="{{include.image}}" alt="{{include.image_alt}}" data-editable="image" data-prop-src="image" data-prop-alt="image_alt" />
           <div class="hero-two-banner-shape">
           </div>
         </div>
